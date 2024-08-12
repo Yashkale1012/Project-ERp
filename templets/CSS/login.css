@@ -10,13 +10,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #ded2cfde;/*linear-gradient(to right, #755712, #d5f6e8), url(e-commerce-1920-x-1080-wallpaper-tb4uqckgoo0883zw.jpg) no-repeat center center/cover;*/
+    background: white;/*linear-gradient(to right, #755712, #d5f6e8), url(e-commerce-1920-x-1080-wallpaper-tb4uqckgoo0883zw.jpg) no-repeat center center/cover;*/
     overflow: hidden;
 }
 
 .wrapper {
     width: 420px;
-    background: #472001(236, 228, 205, 0.879);
+    background: #472001;
     color: white;
     border-radius: 20px;
     padding: 30px 40px;
@@ -46,7 +46,7 @@ body {
     position: relative;
     width: 100%;
     height: 50px;
-    background: rgba(255, 255, 255, 0.2);
+    background: white;
     margin: 30px 0;
     border-radius: 50px;
     display: flex;
@@ -56,7 +56,7 @@ body {
 }
 
 .input-box:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: white(229, 228, 228, 0.3);
 }
 
 .input-box input {
@@ -65,23 +65,23 @@ body {
     background: transparent;
     border: none;
     font-size: 16px;
-    color: white;
+    color: black;
     padding: 0 10px;
     outline: none;
 }
 
 .input-box input::placeholder {
-    color: rgba(255, 255, 255, 0.8);
+    color: black;
 }
 
 .input-box svg {
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.8);
+    color: black;
     transition: color 0.3s ease;
 }
 
 .input-box input:focus + svg {
-    color: #34e89e;
+    color: #e3e1e0;
 }
 
 .wrapper .remember-forgot {
@@ -92,7 +92,7 @@ body {
 }
 
 .remember-forgot label input {
-    accent-color: #34e89e;
+    accent-color: #f0eeec;
     margin-right: 3px;
 }
 
@@ -110,13 +110,13 @@ body {
 .wrapper .btn {
     width: 100%;
     height: 45px;
-    background: #472001;
+    background: #e09068;
     border: none;
     outline: none;
     border-radius: 50px;
     cursor: pointer;
     font-size: 16px;
-    color: #fff;
+    color: #0b0b0b;
     font-weight: 600;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: background 0.3s ease, box-shadow 0.3s ease;
